@@ -1,0 +1,34 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~admin-lte/build/scss/adminlte";
+@import "~jquery-ui/themes/base/all.css";
+
+#timesheets-table {
+    .projects {
+        &__header{
+            background-color: #ccc;
+        }
+        &__timesheets__header{
+            background-color: #ddd;
+        }
+        &__phase {
+            display: none;
+            &__header{
+                font-weight: bold;
+                background-color: #eee;
+            }
+        }
+    }
+}
+
+.wip {
+    display: none;
+}
+
+.content-header-actions {
+    .btn {
+        margin-left: 8px;
+    }
+}
